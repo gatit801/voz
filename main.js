@@ -53,13 +53,13 @@ function setup(){
 
 function draw(){
 
-if(draw_circle = "set"){
+if(draw_circle == "set"){
 
     circle(x, y, 28)
     draw_circle = ""
 }
 
-if(draw_rect = "set"){
+if(draw_rect == "set"){
     rect(x, y, 70, 50)
     draw_rect = ""
 
@@ -68,6 +68,7 @@ if(draw_rect = "set"){
 
 
 }
+
 
 
 
