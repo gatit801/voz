@@ -38,7 +38,7 @@ if(contenido == "rectángulo"){
     x = Math.floor(Math.random() * 900)
     y = Math.floor(Math.random() * 600)
     document.getElementById("status").innerHTML = 'un rectangulo de dibuja'
-    draw_rectangle =  "set"
+    draw_rect =  "set"
 
 console.log(draw_rect)
 
@@ -68,6 +68,7 @@ if(draw_rect = "set"){
 
 
 }
+
 
 
 
